@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="indexx.html">
+    <img src="Saylani-logo.png" class="center" >
+    <h1> STUDENT REGISTRATION FORM</h1>
+
+
+    <fieldset> 
+        
+    <p>FIRST NAME &emsp;&emsp;&emsp;&emsp;
+        <input required type="text" name="first name" maxlength="30" size="15" placeholder="Enter first name">
+        (max 30 characters a-z and A-Z)
+    </p>
+    <p>LAST NAME &nbsp;&emsp;&emsp;&emsp;&emsp;
+        <input required type="text" name="last name" maxlength="30" size="15" placeholder="Enter last name">
+        (max 30 characters a-z and A-Z)
+    </p>
+
+    <p>DATE OF BIRTH &emsp;&emsp;&emsp;
+        <input required type="date" name="date of birth">
+    </p>
+    <p>EMAIL ID &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input required type="email" name="email" placeholder="Enter email address"   >
+    </p>
+    <p>MOBILE NUMBER &emsp;&emsp;
+        <input required type="number" name="number" size="15" maxlength="10" placeholder="Enter Mobile Number">
+        (10 digit number)
+    </p>
+    <p>GENDER &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        Male<input required type="radio" name="Gender">
+        Female<input required type="radio" name="Gender">
+    </p>
+    <p >ADDRESS &emsp;&emsp;&emsp;&emsp;&emsp;
+        <textarea required name="comments" cols="35" rows="5" class="vertical"></textarea>
+    </p>
+    <p>CITY &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input required type="text" name="city" size="10" maxlength="25" placeholder="Enter city name">
+        (max 30 characters a-z and A-Z)
+    </p>
+    <P>PIN CODE &emsp;&emsp;&emsp;&emsp;&emsp;
+     <input type="number" name="pin code" placeholder="Enter pincode"> 
+     (6 digit number)  
+    </P>
+    <p>STATE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="text" name="city" size="10" maxlength="25" placeholder="Enter state">
+        (max 30 characters a-z and A-Z)
+    </p>    
+     <p>COUNTRY &emsp;&emsp;&emsp;&emsp;&emsp;
+            <input required type="text" name="city" size="10" maxlength="30" placeholder="Enter country ">      
+     </p> 
+     <p>HOBBIES &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+
+         Drawing<input  type="checkbox" name="hobbies" >
+         Singing<input type="checkbox" name="hobbies" >
+         Dancing<input type="checkbox" name="hobbies" >
+         Sketching<input type="checkbox" name="hobbies" ><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         &emsp;&emsp;Others <input type="checkbox" name="hobbies" ><input type="text" name="others" >
+     
+         <table >
+             <tr>
+                 <td>QUALIFICATION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                 <th >&ensp;&ensp;S No. Examination</th>
+                 <th class="tablecenter"> Board</th>
+                 <th class="tablecenter">Percentage</th>
+                 <th class="tablecenter">Year of Passing</th>
+             </tr>
+             <tr>
+                 <td class="empty"></td>
+                 <td>&ensp;&ensp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class X</td>
+                 <td><input  type="text" name="Board" class="tablecenter" ></td>
+                 <td ><input type="text" name="Percentage" class="tablecenter" ></td>
+                 <td ><input type="text" name="Year of Passing" class="tablecenter"></td>
+
+             </tr>
+             <tr>
+                <td class="empty"></td>
+                <td>&ensp;&ensp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class XII</td>
+                <td><input type="text" name="Board" class="tablecenter" ></td>
+                <td><input type="text" name="Percentage" class="tablecenter" ></td>
+                 <td><input type="text" name="Year of Passing" class="tablecenter" ></td>
+            </tr>
+            <tr>
+                <td class="empty"></td>
+                <td>&ensp;&ensp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduation</td>
+                <td><input type="text" name="Board" class="tablecenter"></td>
+                <td><input type="text" name="Percentage"  class="tablecenter"></td>
+                 <td><input type="text" name="Year of Passing" class="tablecenter"></td>
+            </tr>
+            <tr>
+                <td class="empty"></td>
+                <td>&ensp;&ensp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Master</td>
+                <td><input type="text" name="Board" class="tablecenter" ></td>
+                <td><input type="text" name="Percentage" class="tablecenter"></td>
+                 <td><input type="text" name="Year of Passing" class="tablecenter"></td>
+            </tr>
+            <tr>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td>&emsp;&ensp;&ensp;(10 char max)</td>
+                <td>&emsp;&ensp;&ensp;(upto 2 decimal)</td>
+            </tr>
+         </table>
+         <p>COURSES <br>APPLIED FOR &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                BCA<input type="radio" name="COURSES APPLIED FOR" id="">
+                B.Com<input type="radio" name="COURSES APPLIED FOR" id="">
+                B.Sc<input type="radio" name="COURSES APPLIED FOR" id="">
+                B.A<input type="radio" name="COURSES APPLIED FOR" id="">
+         </p>
+         <p class="button">
+             <input type="submit" value="Submit">
+             <input type="reset" value="Reset">
+        
+     </p>
+     
+
+    </fieldset>
+
+</form>
+
+
+
+
+</body>
+</html>
